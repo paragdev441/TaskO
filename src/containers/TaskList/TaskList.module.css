@@ -1,0 +1,30 @@
+.list_block {
+    display: block;
+    align-items: center;
+    border: 1px solid #2e98d6;
+    background: #2e98d62e;
+    border-radius: 5px;
+    padding-left: 5px;
+    justify-content: space-between;
+    text-align: left;
+    width: 100%;
+}
+
+.list_item {
+    display: flex;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.list_index {
+    background: rgb(41, 197, 177) !important;
+    display: inline-block;
+    border: 2px solid #b6d8ec;
+    border-radius: 5px;
+    align-self: center;
+    width: 20px;
+}
+
+.form_header {
+    color: rgb(63 80 181);
+  }

@@ -1,0 +1,66 @@
+.form_header {
+  color: rgb(63 80 181);
+}
+
+.task_form {
+  padding: 10px 30px;
+}
+
+.divider {
+  border: 1px solid #b9b6b6;
+  width: 100%;
+  flex-basis: 100%;
+  margin: 9px;
+}
+
+.responsive_block {
+  lex-basis: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  /* padding: 27px; */
+  max-height: 150px;
+  overflow: auto;
+  width: 100%;
+  /* height: 100px; */
+  float: left;
+  /* background: url(https://s.cdpn.io/3/dude.jpg) no-repeat; */
+  margin: 20px;
+  border-radius: 5px;
+  padding: 9px;
+  border: 3px solid rgb(88 161 222);
+  color: white;
+  /* div: nth-of-type(2) { background-clip: padding-box; }; */
+  margin-top: 0px;
+}
+
+.responsive_block:nth-of-type(3) {
+  background-clip: content-box;
+}
+
+.tasks_header {
+  display: flex;
+  align-items: center;
+  width: 8em;
+  justify-content: space-between;
+  padding-bottom: 5px;
+}
+
+.task_block {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 7px;
+  display: flex;
+}
+
+.form_heading {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.time_duration {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 20%;
+}

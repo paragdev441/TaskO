@@ -1,0 +1,8 @@
+.dashbaord {
+    padding: 15px 0px;
+}
+
+.options_block {
+    justify-content: space-evenly;
+    display: flex;
+}
