@@ -11,16 +11,6 @@ const TaskList = () => {
   );
   let [selectedTasks, setSelectedTasks] = useState([]);
 
-  const handleTask = (e, slelectedTaskIndex) => {
-    if (e.target.checked) {
-      setSelectedTasks([...selectedTasks, slelectedTaskIndex]);
-    } else {
-      setSelectedTasks(
-        selectedTasks.filter((item, index) => slelectedTaskIndex !== item)
-      );
-    }
-  };
-
   const handleDeleteTask = () => {
     let modifiedTasks = tasks.filter(
       (task, index) => !selectedTasks.includes(index)
@@ -31,6 +21,16 @@ const TaskList = () => {
   };
 
   const memoTaskList = useMemo(() => {
+    const handleTask = (e, slelectedTaskIndex) => {
+      if (e.target.checked) {
+        setSelectedTasks([...selectedTasks, slelectedTaskIndex]);
+      } else {
+        setSelectedTasks(
+          selectedTasks.filter((item, index) => slelectedTaskIndex !== item)
+        );
+      }
+    };
+
     return tasks ? <List tasks={tasks} handleTask={handleTask} /> : null;
   }, [tasks, selectedTasks]);
 
