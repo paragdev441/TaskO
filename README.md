@@ -23,6 +23,6 @@ TaskO
 
 ## Usage
 
-1.  At the top right, click Extensions <img src=//lh3.googleusercontent.com/5nlvcUtFevZLAkSJALBl5Fa8thP\_-mGFnUngJLuAFzt0jws-Lr09I9mIfawW4vKiT6k=w36-h36" width="18" height="18" alt="" data-mime-type="image/png">
+1.  At the top right, click Extensions <img src=https://raw.githubusercontent.com/paragdev441/TaskO/master/public/extension_icon.png" width="18" height="18" alt="" data-mime-type="image/png">
 2.  Choose **TaskO** and extension is then open.
 3.  Ready to Use. Enjoy 👍
