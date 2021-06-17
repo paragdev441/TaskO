@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+<h1 align="center">
+TaskO
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**An excellent Task creator where you can not just create or view your daily task, you can child tasks for each parent task, add time duration with each task and can view how much time is elapsed at any give time. Fast, advanced, and clean.**
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+- [Installation](#installation)
+- [Usage](#usage)
 
-### `yarn start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### Chrome
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Go to folder where you want to clone the repository, open terminal at that folder and run the following command:- `git clone https://github.com/paragdev441/TaskO.git`
+2. A "**TaskO**" folder is created.
+3. Navigate to `chrome://extensions`
+4. Enable the developer mode by switching on the toggle button **Developer mode** located at top right corner
+5. Click on the top left corner button **Load unpacked** and then dialog box is opened up.
+6. Go to "**TaskO**" folder and select '**build_original**' folder and click on **select** button of the dialog box.
+7. Installation is done.
 
-### `yarn test`
+## Usage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1.  At the top right, click Extensions <img src="//lh3.googleusercontent.com/5nlvcUtFevZLAkSJALBl5Fa8thP_-mGFnUngJLuAFzt0jws-Lr09I9mIfawW4vKiT6k=w36-h36" width="18" height="18" alt="" data-mime-type="image/png">
+2.  Choose **TaskO** and extension is then open.
+3.  Ready to Use. Enjoy 👍
