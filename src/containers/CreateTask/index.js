@@ -41,7 +41,7 @@ const CreateTask = () => {
       cookies.set(
         "tasks",
         JSON.stringify([{ ...values, totalHours, submittedDate: new Date() }]),
-        { maxAge: 31536000 }
+        { maxAge: 24 * 60 * 60 * 1000 }
       );
     } else {
       let currentCookies = cookies.get("tasks");
