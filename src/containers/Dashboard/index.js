@@ -1,12 +1,7 @@
 import React from "react";
-import Button from "@material-ui/core/Button";
 
 import styles from "./Dashboard.module.css";
-import {
-  CreateButton,
-  ViewButton,
-  ProgressButton,
-} from "../../components/Buttons";
+import { CreateButton, ViewButton } from "../../components/Buttons";
 import { Link } from "react-router-dom";
 
 const Dashboard = () => {
