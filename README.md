@@ -2,7 +2,7 @@
 TaskO
 </h1>
 
-**An excellent Task creator where you can not just create or view your daily task, you can add child tasks for each parent task, add time duration with each task and can view how much time is elapsed at any give time. Fast, advanced, and clean.**
+**An excellent Task creator where you can not just create or view your daily task, you can also add child tasks for each parent task, add time duration with each task and can view how much time is elapsed at any give time. Fast, advanced, and clean.**
 
 ---
 
