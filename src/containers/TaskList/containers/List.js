@@ -20,7 +20,7 @@ const List = ({ tasks, handleTask }) => {
           </div>
           <div style={{ paddingBottom: "10px" }}>{task.description}</div>
           <div>
-            <h4>Time Elapsed Percentage:</h4>
+            <h4>Time:</h4>
           </div>
           <div style={{ paddingBottom: "10px" }}>
             <Loader

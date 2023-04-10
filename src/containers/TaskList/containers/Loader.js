@@ -17,12 +17,17 @@ const Loader = ({ submittedDate, totalHours }) => {
   }, []);
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      setSeconds((prevState) => prevState + 1);
-    }, [1000])
+    let interval;
+    if (timeEllapsedPercentage < 100) {
+      interval = setInterval(() => {
+        setSeconds((prevState) => prevState + 1);
+      }, [1000])
+    } else {
+      clearInterval(interval)
+    }
 
     return () => clearInterval(interval);
-  }, []);
+  }, [timeEllapsedPercentage]);
 
   useEffect(() => {
     const tempDateObj = new Date(0);
