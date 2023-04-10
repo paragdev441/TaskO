@@ -26,3 +26,6 @@ TaskO
 1.  At the top right, click Extensions <img src="https://raw.githubusercontent.com/paragdev441/TaskO/master/public/extension_icon.png" />
 2.  Choose **TaskO** and extension is then open.
 3.  Ready to Use. Enjoy 👍
+
+## Preview
+![Untitled1](https://user-images.githubusercontent.com/85457553/230877614-e6f2ee02-1fe2-4730-9065-dacc8d577eb8.gif)
