@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/containers/Dashboard/Dashboard.module.css"],"names":[],"mappings":"AAAA,4BACI,cACJ,CAEA,gCACI,4BAA6B,CAC7B,YACJ","file":"6.7258110b.chunk.css","sourcesContent":[".dashbaord {\n    padding: 15px 0px;\n}\n\n.options_block {\n    justify-content: space-evenly;\n    display: flex;\n}"]}

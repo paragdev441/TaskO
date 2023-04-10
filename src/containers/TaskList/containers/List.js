@@ -1,11 +1,9 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styles from "../TaskList.module.css";
 import { Checkbox } from "@material-ui/core";
 import Loader from "./Loader";
 
 const List = ({ tasks, handleTask }) => {
-  console.log("Does I am rendering !");
-  console.log(tasks, "tasks");
   return tasks.map((task, index) => {
     return (
       <div key={`${tasks}${index}`} className={styles.list_item}>
